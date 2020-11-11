@@ -13,7 +13,7 @@ class Ccache < Formula
     sha256 "dab9f687dc351118a4b69d4d7f8bb87eb39cbf44acb42c66f2c9286b3e050877" => :high_sierra
   end
 
-  depends_on "KatanaGraph/dependencies/cmake" => :build
+  depends_on "cmake" => :build
   depends_on "zstd"
 
   def install
