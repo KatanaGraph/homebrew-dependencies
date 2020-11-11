@@ -19,8 +19,8 @@ class ApacheArrow < Formula
     sha256 "86e602e92b983da7074e5d859dda9d9a173a1a6d6d97c34ca912c35a8fc195ba" => :high_sierra
   end
 
-  depends_on "katana/dependencies/boost" => :build
-  depends_on "katana/dependencies/cmake" => :build
+  depends_on "KatanaGraph/dependencies/boost" => :build
+  depends_on "KatanaGraph/dependencies/cmake" => :build
   depends_on "llvm@9" => :build
   depends_on "brotli"
   depends_on "glog"
